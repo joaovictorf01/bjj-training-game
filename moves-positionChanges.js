@@ -30,7 +30,8 @@ var movesPositionChanges = [
         type: "positionChange",
         next: "rearMount",
         notes: "C grip thumb up on opp wrist. Underhand grip on tricep. Pull diagonally across you. Plant outside foot, hook other over calf. Bring them down to elbow. Hook arm and take back. Arm goes under their armpit and grips opposite hand/wrist. In seatbelt hold."
-    },{
+
+    ,
         displayName: "Bridging Mount Escape",
         shortName: "bridgingMountEscape",
         type: "sweep",
@@ -68,7 +69,19 @@ displayName: "Stand Up",
         next: ["rearMount", "sideControl"],
         notes: "mirror stance, outside hand grabs wrist, inside hand cups tricep, pull opponent toward you and circle to take back, your inside foot is hooking around theirs", // todo: what to do if you can't circle far enough to back
         defense: [""]
-    },{
+    },
+{
+    displayName: "double leg takedown",
+    shortName: "doubleLegTakedown",
+    type: "positionChange",
+    next: ["Mount","bottomHalfGuard"],
+
+    notes: "Next to your opponent, bend down, and with both hands hold his legs, tug at you while pushing his head and shoulder down the wall, making a lever.",
+    defense : [""]
+}
+
+
+    ,{
         displayName: "Standing Guard Break",
         shortName: "standingGuardBreak",
         type: "positionChange",

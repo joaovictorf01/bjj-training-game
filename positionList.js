@@ -38,7 +38,7 @@ var positions = {
     standing : {
             shortName: "standing",
             displayName: "Standing",
-            validMoves: ["armDragTakedown"],
+            validMoves: ["armDragTakedown", "doubleLegTakedown" ],
             notes: "standing up, you and opponent facing each other"
         },
     butterfly : {
